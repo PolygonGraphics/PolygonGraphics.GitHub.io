@@ -1,0 +1,76 @@
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+html, body {
+  background-color: #1c1c21;
+  overflow-y: hidden;
+  height: 100vh;
+  font-family: "Montserrat";
+}
+
+
+.scroll-snapping {
+  scroll-behavior: smooth;
+  scroll-snap-type: y proximity;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 3vw;
+  background-image:linear-gradient(45deg,#dc1434,#800068);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+}
+
+h2 {
+  font-size: 3vw;
+  color: #1c1c21;
+}
+
+#bigger {
+  font-size: 7vw;
+}
+
+#highlight-w {
+  background-image:linear-gradient(45deg,#dc1434,#800068);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#highlight-b, #bigger {
+  background-color: #F3E9DC;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.full-screen {
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-content: center;
+  margin: 0;
+  scroll-snap-align: center;
+}
+
+.centered {
+  width: 80%;
+  margin: auto;
+  padding: 30vh 0;
+}
+
+.paragraph {
+  padding: 20vh;
+}
+
+#Introduction {
+  background-color: #F3E9DC;
+}
