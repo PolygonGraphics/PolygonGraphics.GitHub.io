@@ -23,23 +23,31 @@ html, body {
 
 h1 {
   font-family: "Montserrat";
-  font-size: 3vw;
+  font-size: 3vmax;
   background-image:linear-gradient(45deg,#dc1434,#800068);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 0;
+	padding: 3vw;
+	border-radius: 3vw;
+	box-shadow:  20px 20px 60px #121215,
+             	-20px -20px 60px #26262d;
 }
 
 h2 {
   font-size: 3vw;
   color: #1c1c21;
+	background-image:linear-gradient(45deg,#dc1434,#800068);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #bigger {
-  font-size: 7vw;
+  font-size: 7vmax;
+	line-height: 6vmax;
 }
 
-#highlight-w {
+#highlight-c {
   background-image:linear-gradient(45deg,#dc1434,#800068);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -52,12 +60,10 @@ h2 {
 }
 
 .full-screen {
-  width: 100vw;
   max-width: 100%;
-  height: 100vh;
+	max-height: 100%;
   justify-content: center;
   align-content: center;
-  margin: 0;
   scroll-snap-align: center;
 }
 
@@ -68,9 +74,19 @@ h2 {
 }
 
 .paragraph {
-  padding: 20vh;
+  padding: 20vmin;
+	margin: auto;
 }
 
 #Introduction {
-  background-color: #F3E9DC;
+  background-color: #1c1c21;
+}
+
+.full-card {
+	height: calc(100% - 6vw);
+	width: calc(100% - 6vw);
+	margin: 3vw;
+	border-radius: 3vw;
+	box-shadow:  20px 20px 60px #121215,
+							-20px -20px 60px #26262d;
 }
