@@ -48,6 +48,11 @@ h2 {
 	line-height: 6vmax;
 }
 
+h2 #bigger {
+	font-size: 7vmax;
+}
+
+
 #highlight-c {
   background-image:linear-gradient(45deg,#dc1434,#800068);
   -webkit-background-clip: text;
@@ -74,8 +79,10 @@ h2 {
 }
 
 .paragraph {
-  padding: 15vmin 10vmax 15vmin 10vmax;
+  padding: 15vmin 10vmax 5vmin 10vmax;
 	margin: auto;
+	z-index: 1;
+	font-size: 3vmax;
 }
 
 
@@ -85,6 +92,32 @@ h2 {
 
 #Introduction2 {
   background-color: #1c1c21;
+}
+
+.programming-logos {
+	padding: 1vmax 10vmax 1vmax 10vmax;
+}
+
+.programming-logo {
+	height: 7vmax;
+	margin: 0 2vmax 2vmax 0;
+}
+
+#subtitle {
+	padding: 0 10vmax 0 10vmax;
+}
+
+.imgbg {
+	position: absolute;
+	display: block;
+  max-width:50vw;
+  height: 70vmin;
+  width: auto;
+	z-index: 0;
+	right: 0;
+	bottom: 3vh;
+	opacity: 1;
+	object-fit: contain;
 }
 
 .full-card {
@@ -110,6 +143,7 @@ h2 {
 	z-index: 100;
 	right: 1.5vw;
 	top: calc(40vh - 2vmax);
+	background-color: #1c1c21;
 }
 
 .arrow-button-r:active {
@@ -128,6 +162,7 @@ h2 {
 	z-index: 100;
 	left: 1.5vw;
 	top: calc(40vh - 2vmax);
+	background-color: #1c1c21;
 }
 
 .arrow-button-l:active {
