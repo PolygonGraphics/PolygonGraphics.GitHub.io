@@ -48,6 +48,11 @@ h2 {
 	line-height: 6vmax;
 }
 
+#less-big {
+  font-size: 5vmax;
+	line-height: 4vmax;
+}
+
 h2 #bigger {
 	font-size: 7vmax;
 }
@@ -59,7 +64,7 @@ h2 #bigger {
   -webkit-text-fill-color: transparent;
 }
 
-#highlight-b, #bigger {
+#highlight-b, #bigger, #less-big {
   background-color: #F3E9DC;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
